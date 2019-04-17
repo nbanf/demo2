@@ -1,0 +1,8 @@
+<view class='container'>
+  <image src='{{userInfo.avatarUrl}}'></image>
+  <text class='title1'>hello  {{userInfo.nickName}}</text>
+  <text class='title2' bindtap='handleclick'>开启小程序之旅</text>
+  <view class='button_class' style='display:{{isShow==false?"none":"block"}}'>
+    <button open-type='getUserInfo' bindgetuserinfo='handgetuserinfo'>获取用户登录信息</button>
+  </view>
+</view>

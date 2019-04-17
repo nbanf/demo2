@@ -1,0 +1,42 @@
+.content_wrap{
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+.user_info image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  /* 对齐 */
+  vertical-align: middle;
+  margin:0 10rpx;
+}
+.user_info .date{
+  font-size: 35rpx;
+}
+.content_title{
+  margin-left: 10rpx;
+  font-weight: bold;
+  margin: 10rpx;
+}
+.content_picture image{
+  width: 100%;
+  height: 460rpx;
+}
+.content_con{
+  font-size: 35rpx;
+  /* 字体缩进 */
+  text-indent: 70rpx;
+}
+.collention{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+  margin: 10rpx;
+}
+.collention_love{
+  margin-right: 10rpx;
+}
+.collention_shuo{
+
+}

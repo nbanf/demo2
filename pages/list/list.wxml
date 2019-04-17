@@ -1,0 +1,20 @@
+<!--pages/list/list.wxml-->
+<import src="../template/list-template.wxml" />
+<view class=''>
+  <navigator>
+    <swiper catchtap='carouseDetails' autoplay='true' indicator-dots indicator-color='green' indicator-active-color='pink' circular>
+      <swiper-item>
+        <image src='../../images/1.png' data-index='0'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='../../images/2.png' data-index='1'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='../../images/3.png' data-index='2'></image>
+      </swiper-item>
+    </swiper>
+  </navigator>
+  <view bindtap='todetails'>
+    <template is="listTmp"></template>
+  </view>
+</view>

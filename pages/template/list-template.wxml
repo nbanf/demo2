@@ -1,0 +1,52 @@
+<template name="listTmp">
+  <view class='content_wrap'>
+    <view class='user_info'>
+      <!--头像-->
+      <image src='../../images/3.png'></image>
+      <!--时间-->
+      <text class='date'>may 19 2018</text>
+    </view>
+    <view class='content_title'>教育理念</view>
+    <view class='content_picture'>
+      <image src="../../images/2.png"></image>
+    </view>
+    <view class='content_con'>
+      让每一个IT人,都直接或安丢还有房百分比欧巴付爱宝佛i阿覅偶那说定非得
+    </view>
+    <view class='collention'>
+      <view class='collention_love'>
+      <text class="iconfont icon-shijian"></text>
+      <text>99</text>
+    </view>
+    <view class='collention_shuo'>
+      <text class="iconfont icon-pinglun"></text>
+      <text>88</text>
+    </view>
+    </view>
+  </view>
+  <view class='content_wrap'>
+    <view class='user_info'>
+      <!--头像-->
+      <image src='../../images/1.png'></image>
+      <!--时间-->
+      <text class='date'>may 19 2018</text>
+    </view>
+    <view class='content_title'>教育理念</view>
+    <view class='content_picture'>
+      <image src="../../images/1.png"></image>
+    </view>
+    <view class='content_con'>
+      让每一个IT人,都直接或安丢还有房百分比欧巴付爱宝佛i阿覅偶那说定非得
+    </view>
+    <view class='collention'>
+      <view class='collention_love'>
+      <text class="iconfont icon-shijian"></text>
+      <text>99</text>
+    </view>
+    <view class='collention_shuo'>
+      <text class="iconfont icon-pinglun"></text>
+      <text>88</text>
+    </view>
+    </view>
+  </view>
+</template>

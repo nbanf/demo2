@@ -1,0 +1,34 @@
+/* pages/index/index.wxss */
+
+page{
+  background: #8ed145;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin: 100rpx 0;
+}
+.title1{
+  font-size: 35rpx;
+  font-weight: bold;
+  margin: 100rpx 0;
+}
+.title2{
+  font-size: 35rpx;
+  border: 1px solid #000;
+  border-radius: 10rpx;
+  padding: 10rpx;
+}
+.button_class{
+  background: #8ed145;
+  margin-top: 20rpx
+}
+.button_class button{
+  background: #8ed145;
+}

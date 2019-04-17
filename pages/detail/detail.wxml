@@ -1,0 +1,28 @@
+<!--pages/detail/detail.wxml-->
+<view class='details_wrap'>
+  <view class='details_picture'>
+    <image src='{{isMusic?"../../images/3.png":"../../images/2.png"}}' class='details_picture1'></image>
+    <image src='{{isMusic?"../../images/sc1.png":"../../images/love.png"}}' class='music_img' catchtap='musicopen'></image>
+  </view>
+  <view class='details_date'>
+    <image src='../../images/2.png'></image>
+    <text>美国队长</text>
+    <text>发布于</text>
+    <text>may 19 2018</text>
+  </view>
+  <view class='details_title'>尚硅谷</view>
+  <view class='details_forward'>
+    <view class='details_forward_im'>
+      <image wx-if="{{isCollected==false}}" src='../../images/aixinjuanzengred.png' catchtap='handleCollection'></image>
+      <image catchtap='handleCollection' wx-if="{{isCollected==true}}" src='../../images/love.png'></image>
+      <image src='../../images/gonggao0.png' catchtap='handlerShare'></image>
+    </view>
+    <view class='line'></view>
+  </view>
+  <view class='btn_forward'>
+    <button open-type='share'>转发此文章</button>
+  </view>
+  <view class='details_content'>
+    变速复活币送到念佛i索尼单反农夫说呢松日过渡金属反抗军嫩牛五方你是个健康的理念
+  </view>
+</view>

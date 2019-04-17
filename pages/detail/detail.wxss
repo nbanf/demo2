@@ -1,0 +1,68 @@
+/* pages/detail/detail.wxss */
+
+.details_wrap{
+  display: flex;
+  flex-direction: column;
+}
+.details_picture .details_picture1{
+  width: 100%;
+  height: 460rpx;
+}
+.details_date{
+  display: flex;
+  flex-direction: row;
+  line-height: 64rpx;
+  margin: 10rpx;
+}
+.details_date image{
+  height: 64rpx;
+  width: 64rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.details_date text{
+  margin-left: 10rpx;
+  font-size: 32rpx;
+}
+.details_title{
+  margin: 10rpx;
+  font-size: 38rpx;
+  font-weight: bold;
+}
+.details_forward{
+  position: relative;
+}
+.details_forward_im{
+  float: right;
+  margin-right: 50rpx;
+}
+.details_forward image{
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 20rpx;
+}
+.line{
+  width: 90%;
+  height: 1rpx;
+  background: rgb(202, 197, 197);
+  position: absolute;
+  top:45rpx;
+  left: 5%;
+  z-index: -1
+}
+.btn_forward button{
+  width: 280rpx;
+  height: 100rpx;
+}
+.details_content{
+  font-size: 32rpx;
+  text-indent: 64rpx;
+  margin: 10rpx;
+}
+.music_img{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 200rpx;
+  left: 345rpx;
+}
